@@ -1,0 +1,8 @@
+[package]
+name = "messenger"
+version = "0.1.0"
+authors = ["Niek Palm <dev.npalm@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+iron = "0.6.0"
