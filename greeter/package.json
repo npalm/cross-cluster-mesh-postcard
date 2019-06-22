@@ -1,13 +1,11 @@
 {
-  "name": "Greeter",
+  "name": "greeter",
   "version": "1.0.0",
   "main": "app.js",
+  "author": "Niek Palm",
   "license": "MIT",
-  "scripts": {
-    "start": "node app.js"
-  },
   "dependencies": {
     "express": "^4.17.1",
-    "request": "^2.88.0",
+    "request": "^2.88.0"
   }
 }
