@@ -20,8 +20,8 @@ img.
 The setup written for Mac, in general most scripts should be just basic `bash`. For helm there is a mac dependency in the setup.
 
 Prerequisite
-- AWS CLI
-- AWS credentials
+- AWS CLI / AWS credentials
+- (optional) gcloud / gcloud authorization
 - kubectl
 - tmux
 
@@ -33,7 +33,7 @@ Download dependencies
 ./01a-istio-dl.sh
 ./01b-helm-dl.sh
 ```
-The next script starts a *tmux* session with a window for each cluster. If you are using environmnet variables for AWS credentials, they are copied. 
+The next script starts a *tmux* session with a window for each cluster. Window 1 and 2 are for the EKS cluster, the third window can be used for GKE. If you are using environmnet variables for AWS credentials, they are copied. 
 ```
 ./01z-shells.sh
 ```
@@ -53,5 +53,36 @@ For cluster 1 execute the scripts below
 ./06-1-deploy-greeter.sh
 . ./07-1-cluster2-find.sh
 ./08-1-messenger-service-entry.sh
-08x-messenger-service-entry.yaml
 ```
+Now we are ready to test our deployment. Execute to open a browser to point to the postcard. If everything works you should see a post card that mention a message from cluster 2.
+```
+./09-open-postcard.sh
+```
+
+### Bonus
+Now you have a cross cluster mesh in once cloud nothing stops you with adding a K8S cluster from another cloud to the mesh.
+
+Let's add a GKE cluster to the mesh. Open tmux session 3 and run the scripts below.
+
+```
+./02-cluster-gke.sh
+./03-root-cert.sh
+./04-istio-install.sh
+./05-delegate-global-stub-kube-dns.sh .
+```
+Next we deploy the messenger to GKE. Before executing the scripts open `demo/messenager/messenger.yaml` and update the the message variable.
+```
+./06-2-deploy-messenger.sh
+```
+
+Next update the DNS entry that points to the messenger service.
+
+```
+. ./07-1-clusterGKE-find.sh
+./08-1-messenger-service-entry.sh
+```
+
+That is all, refresh the postcard in your browser, it should show the message provided to your messenger running in GKE.
+
+## Cleanup
+TODO
