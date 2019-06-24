@@ -1,0 +1,63 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: greeter
+  labels:
+    app: greeter
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: greeter
+  template:
+    metadata:
+      labels:
+        app: greeter
+    spec:
+      containers:
+      - name: greeter
+        image: npalm/hello-mesh-greeter:v6
+        imagePullPolicy: Always
+        ports:
+          - name: http
+            protocol: TCP
+            containerPort: 3000
+        livenessProbe:
+          httpGet:
+            port: http
+            path: /
+        readinessProbe:
+          httpGet:
+            port: http
+            path: /
+        resources:
+          requests:
+            memory: 50Mi
+            cpu: 100m
+          limits:
+            memory: 500Mi
+            cpu: 500m
+        env:
+        - name: SECOND_CLUSTER
+          value: "http://messenger.default.global:3000"
+        - name: LOCATION
+          value: "greeter@cluster-1"
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: greeter
+  labels:
+    app: greeter
+spec:
+  type: ClusterIP
+  ports:
+  - name: http
+    protocol: TCP
+    port: 3000
+    targetPort: http
+  selector:
+    app: greeter
+
+
