@@ -1,0 +1,138 @@
+<svg version="1.1" width="908.45" height="446.4" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs/>
+  <g transform="matrix(1, 0, 0, 1, 10, 10)">
+    <path stroke="#000000" stroke-opacity="1" stroke-width="1" fill="none" d="M 356 188.5 Q 358.15 204.05 358.15 214.7 Q 358.15 218.9 355.25 278.15 Q 353.85 281.95 353.85 292.2 Q 353.85 303.2 356 317.25 Q 358.15 330.55 358.15 346.9 Q 358.15 375 349.9 377.3 Q 329.9 378.4 306.3 382.2 Q 289.85 384.5 258.1 383.75 Q 229.15 382.2 227 382.2 Q 206.95 382.2 149.8 378.4 Q 104.8 375 71.9 377.3 Q 50.45 379.2 9 375 Q 3.65 332.85 3.65 275.1 Q 8.3 187.7 8.3 150.9 Q 6.15 123.55 8.3 108.7 Q 9 104.9 9.7 102.25 L 9.7 96.2 Q 9.7 90.85 9.7 85.15 Q 9.7 35.8 11.15 3.85 Q 44.4 5.4 108.35 8.45 Q 148.35 11.1 178.05 11.1 Q 185.55 11.1 192.7 11.1 Q 224.1 10.35 229.85 7.65 Q 237.35 5.4 245.55 5.4 Q 253.8 5.4 358.1 17.15 L 361 39.95 Q 361 59.35 357.4 98.45 Q 353.85 137.6 353.85 156.2 Q 353.85 173.7 356 188.5 M 353.85 156.2 L 353.85 156.2 "/>
+    <foreignObject width="355" height="30" x="5" y="393">
+      <body style="color: #000000;font-family: HandFont;font-size: 24px;font-style: normal;text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+        <p style="margin: 0;">
+          <span style="color: #000000;font-family: HandFont;font-size: 24px;font-style: normal;font-weight: normal;text-align: center;text-decoration: none;">cluster1</span>
+        </p>
+      </body>
+    </foreignObject>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 224.25, 45.3)">
+    <path stroke="#000000" stroke-opacity="1" stroke-width="1" fill="none" d="M 122.9 34.5 Q 123.65 37.35 123.65 39.3 Q 123.65 40.05 122.65 50.9 Q 122.15 51.6 122.15 53.45 Q 122.15 55.5 122.9 58.05 Q 123.65 60.5 123.65 63.5 Q 123.65 68.6 120.8 69.05 Q 113.9 69.25 105.75 69.95 Q 100.05 70.35 89.1 70.2 Q 79.1 69.95 78.35 69.95 Q 71.45 69.95 51.7 69.25 Q 36.15 68.6 24.8 69.05 Q 17.4 69.4 3.1 68.6 Q 1.25 60.9 1.25 50.35 Q 2.85 34.35 2.85 27.6 Q 2.15 22.6 2.85 19.9 Q 3.1 19.2 3.35 18.7 L 3.35 17.6 L 3.35 15.6 Q 3.35 6.55 3.85 0.7 Q 15.3 1 37.4 1.55 Q 51.2 2.05 61.45 2.05 Q 64.05 2.05 66.5 2.05 Q 77.35 1.9 79.35 1.4 Q 81.95 1 84.75 1 Q 87.6 1 123.65 3.15 L 124.6 7.3 Q 124.6 10.85 123.4 18 Q 122.15 25.2 122.15 28.6 Q 122.15 31.8 122.9 34.5 M 122.15 28.6 L 122.15 28.6 "/>
+    <foreignObject width="116" height="59" x="5" y="5">
+      <body style="color: #000000;font-family: HandFont;font-size: 24px;font-style: normal;text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+        <p style="margin: 0;">
+          <span style="color: #000000;font-family: HandFont;font-size: 24px;font-style: normal;font-weight: normal;text-align: center;text-decoration: none;">istio control plane</span>
+        </p>
+      </body>
+    </foreignObject>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 45.8, 44)">
+    <path stroke="#000000" stroke-opacity="1" stroke-width="1" fill="none" d="M 122.9 34.5 Q 123.65 37.35 123.65 39.3 Q 123.65 40.05 122.65 50.9 Q 122.15 51.6 122.15 53.45 Q 122.15 55.5 122.9 58.05 Q 123.65 60.5 123.65 63.5 Q 123.65 68.6 120.8 69.05 Q 113.9 69.25 105.75 69.95 Q 100.05 70.35 89.1 70.2 Q 79.1 69.95 78.35 69.95 Q 71.45 69.95 51.7 69.25 Q 36.15 68.6 24.8 69.05 Q 17.4 69.4 3.1 68.6 Q 1.25 60.9 1.25 50.35 Q 2.85 34.35 2.85 27.6 Q 2.15 22.6 2.85 19.9 Q 3.1 19.2 3.35 18.7 L 3.35 17.6 L 3.35 15.6 Q 3.35 6.55 3.85 0.7 Q 15.3 1 37.4 1.55 Q 51.2 2.05 61.45 2.05 Q 64.05 2.05 66.5 2.05 Q 77.35 1.9 79.35 1.4 Q 81.95 1 84.75 1 Q 87.6 1 123.65 3.15 L 124.6 7.3 Q 124.6 10.85 123.4 18 Q 122.15 25.2 122.15 28.6 Q 122.15 31.8 122.9 34.5 M 122.15 28.6 L 122.15 28.6 "/>
+    <foreignObject width="116" height="59" x="5" y="5">
+      <body style="color: #000000;font-family: HandFont;font-size: 24px;font-style: normal;text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+        <p style="margin: 0;">
+          <span style="color: #000000;font-family: HandFont;font-size: 24px;font-style: normal;font-weight: normal;text-align: center;text-decoration: none;">K8S API server</span>
+        </p>
+      </body>
+    </foreignObject>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 168.85, 73)">
+    <path stroke="#000000" stroke-opacity="1" stroke-width="1" fill="none" d="M 49.4 10.8 Q 49.25 10.8 46.65 10.55 Q 44.05 10.3 40.5 10 Q 37 9.7 34.1 9.45 Q 31.25 9.2 30.6 9.2 Q 29 9.25 24.55 9.6 Q 20.1 9.95 19.55 10 L 0.6 9.4 "/>
+    <path stroke="#000000" stroke-opacity="1" stroke-width="1" fill="none" d="M 10.85 0.8 Q 10.85 1.1 8.45 4.1 Q 6 7.1 1.25 9.4 Q 1.35 9.4 3.1 10.25 Q 4.85 11.1 7.2 12.55 Q 9.5 13.95 11.35 15.65 Q 13.15 17.4 13.35 19.2 "/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 159.85, 156.95)">
+    <path stroke="#000000" stroke-opacity="1" stroke-width="1" fill="none" d="M 122.9 93.25 Q 123.65 101 123.65 106.25 Q 123.65 108.3 122.65 137.65 Q 122.15 139.5 122.15 144.6 Q 122.15 150.05 122.9 157 Q 123.65 163.6 123.65 171.65 Q 123.65 185.55 120.8 186.7 Q 113.9 187.25 105.75 189.15 Q 100.05 190.25 89.1 189.9 Q 79.1 189.15 78.35 189.15 Q 71.45 189.15 51.7 187.25 Q 36.15 185.55 24.8 186.7 Q 17.4 187.65 3.1 185.55 Q 1.25 164.7 1.25 136.15 Q 2.85 92.9 2.85 74.65 Q 2.15 61.15 2.85 53.8 Q 3.1 51.9 3.35 50.6 L 3.35 47.6 Q 3.35 44.95 3.35 42.15 Q 3.35 17.7 3.85 1.9 Q 15.3 2.65 37.4 4.15 Q 51.2 5.5 61.45 5.5 Q 64.05 5.5 66.5 5.5 Q 77.35 5.1 79.35 3.8 Q 81.95 2.65 84.75 2.65 Q 87.6 2.65 123.65 8.5 L 124.6 19.8 Q 124.6 29.35 123.4 48.75 Q 122.15 68.1 122.15 77.3 Q 122.15 85.95 122.9 93.25 M 122.15 77.3 L 122.15 77.3 "/>
+    <foreignObject width="116" height="30" x="5" y="5">
+      <body style="color: #000000;font-family: HandFont;font-size: 24px;font-style: normal;text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+        <p style="margin: 0;">
+          <span style="color: #000000;font-family: HandFont;font-size: 24px;font-style: normal;font-weight: normal;text-align: center;text-decoration: none;">greeter</span>
+        </p>
+      </body>
+    </foreignObject>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 182.85, 203.95)">
+    <path stroke="#000000" stroke-opacity="1" stroke-width="1" fill="none" d="M 33.85 50.15 Q 31.05 50.05 26.3 49.8 Q 17.75 49.35 17.1 49.35 L 15.2 49.5 Q 15 49.35 14.75 49.15 Q 11.7 46.75 8.6 43.85 Q 2.9 38.5 0.5 36.4 L 0.5 15.8 Q 3.5 11.85 8.7 7.1 Q 10.95 5.2 14.8 1.8 L 15.4 1.25 Q 19.25 1.15 25.55 0.5 Q 26.7 0.5 30.5 0.7 Q 33.6 0.8 35.15 0.95 Q 36.45 2.9 38.5 4.7 Q 42.35 7.95 43 8.7 Q 44 9.7 46.6 13 Q 48.1 14.55 49.4 16.25 L 49.7 24.55 Q 49.7 29.75 49.7 30.4 Q 49.6 31.25 49.4 35.45 Q 46.55 37.85 42.45 41.85 Q 34.5 49.5 33.85 50.15 M 42.45 41.85 L 42.45 41.85 "/>
+    <foreignObject width="40" height="30" x="5" y="5">
+      <body style="color: #000000;font-family: HandFont;font-size: 24px;font-style: normal;text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+        <p style="margin: 0;">
+          <span style="color: #000000;font-family: HandFont;font-size: 24px;font-style: normal;font-weight: normal;text-align: center;text-decoration: none;">s</span>
+        </p>
+      </body>
+    </foreignObject>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 187.85, 272)">
+    <path stroke="#000000" stroke-opacity="1" stroke-width="1" fill="none" d="M 33.85 50.15 Q 31.05 50.05 26.3 49.8 Q 17.75 49.35 17.1 49.35 L 15.2 49.5 Q 15 49.35 14.75 49.15 Q 11.7 46.75 8.6 43.85 Q 2.9 38.5 0.5 36.4 L 0.5 15.8 Q 3.5 11.85 8.7 7.1 Q 10.95 5.2 14.8 1.8 L 15.4 1.25 Q 19.25 1.15 25.55 0.5 Q 26.7 0.5 30.5 0.7 Q 33.6 0.8 35.15 0.95 Q 36.45 2.9 38.5 4.7 Q 42.35 7.95 43 8.7 Q 44 9.7 46.6 13 Q 48.1 14.55 49.4 16.25 L 49.7 24.55 Q 49.7 29.75 49.7 30.4 Q 49.6 31.25 49.4 35.45 Q 46.55 37.85 42.45 41.85 Q 34.5 49.5 33.85 50.15 M 42.45 41.85 L 42.45 41.85 "/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 533.45, 13.35)">
+    <path stroke="#000000" stroke-opacity="1" stroke-width="1" fill="none" d="M 356 188.5 Q 358.15 204.05 358.15 214.7 Q 358.15 218.9 355.25 278.15 Q 353.85 281.95 353.85 292.2 Q 353.85 303.2 356 317.25 Q 358.15 330.55 358.15 346.9 Q 358.15 375 349.9 377.3 Q 329.9 378.4 306.3 382.2 Q 289.85 384.5 258.1 383.75 Q 229.15 382.2 227 382.2 Q 206.95 382.2 149.8 378.4 Q 104.8 375 71.9 377.3 Q 50.45 379.2 9 375 Q 3.65 332.85 3.65 275.1 Q 8.3 187.7 8.3 150.9 Q 6.15 123.55 8.3 108.7 Q 9 104.9 9.7 102.25 L 9.7 96.2 Q 9.7 90.85 9.7 85.15 Q 9.7 35.8 11.15 3.85 Q 44.4 5.4 108.35 8.45 Q 148.35 11.1 178.05 11.1 Q 185.55 11.1 192.7 11.1 Q 224.1 10.35 229.85 7.65 Q 237.35 5.4 245.55 5.4 Q 253.8 5.4 358.1 17.15 L 361 39.95 Q 361 59.35 357.4 98.45 Q 353.85 137.6 353.85 156.2 Q 353.85 173.7 356 188.5 M 353.85 156.2 L 353.85 156.2 "/>
+    <foreignObject width="355" height="30" x="5" y="393">
+      <body style="color: #000000;font-family: HandFont;font-size: 24px;font-style: normal;text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+        <p style="margin: 0;">
+          <span style="color: #000000;font-family: HandFont;font-size: 24px;font-style: normal;font-weight: normal;text-align: center;text-decoration: none;">cluster2</span>
+        </p>
+      </body>
+    </foreignObject>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 565.15, 48.75)">
+    <path stroke="#000000" stroke-opacity="1" stroke-width="1" fill="none" d="M 122.9 34.5 Q 123.65 37.35 123.65 39.3 Q 123.65 40.05 122.65 50.9 Q 122.15 51.6 122.15 53.45 Q 122.15 55.5 122.9 58.05 Q 123.65 60.5 123.65 63.5 Q 123.65 68.6 120.8 69.05 Q 113.9 69.25 105.75 69.95 Q 100.05 70.35 89.1 70.2 Q 79.1 69.95 78.35 69.95 Q 71.45 69.95 51.7 69.25 Q 36.15 68.6 24.8 69.05 Q 17.4 69.4 3.1 68.6 Q 1.25 60.9 1.25 50.35 Q 2.85 34.35 2.85 27.6 Q 2.15 22.6 2.85 19.9 Q 3.1 19.2 3.35 18.7 L 3.35 17.6 L 3.35 15.6 Q 3.35 6.55 3.85 0.7 Q 15.3 1 37.4 1.55 Q 51.2 2.05 61.45 2.05 Q 64.05 2.05 66.5 2.05 Q 77.35 1.9 79.35 1.4 Q 81.95 1 84.75 1 Q 87.6 1 123.65 3.15 L 124.6 7.3 Q 124.6 10.85 123.4 18 Q 122.15 25.2 122.15 28.6 Q 122.15 31.8 122.9 34.5 M 122.15 28.6 L 122.15 28.6 "/>
+    <foreignObject width="116" height="59" x="5" y="5">
+      <body style="color: #000000;font-family: HandFont;font-size: 24px;font-style: normal;text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+        <p style="margin: 0;">
+          <span style="color: #000000;font-family: HandFont;font-size: 24px;font-style: normal;font-weight: normal;text-align: center;text-decoration: none;">istio control plane</span>
+        </p>
+      </body>
+    </foreignObject>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 749.45, 49.45)">
+    <path stroke="#000000" stroke-opacity="1" stroke-width="1" fill="none" d="M 122.9 34.5 Q 123.65 37.35 123.65 39.3 Q 123.65 40.05 122.65 50.9 Q 122.15 51.6 122.15 53.45 Q 122.15 55.5 122.9 58.05 Q 123.65 60.5 123.65 63.5 Q 123.65 68.6 120.8 69.05 Q 113.9 69.25 105.75 69.95 Q 100.05 70.35 89.1 70.2 Q 79.1 69.95 78.35 69.95 Q 71.45 69.95 51.7 69.25 Q 36.15 68.6 24.8 69.05 Q 17.4 69.4 3.1 68.6 Q 1.25 60.9 1.25 50.35 Q 2.85 34.35 2.85 27.6 Q 2.15 22.6 2.85 19.9 Q 3.1 19.2 3.35 18.7 L 3.35 17.6 L 3.35 15.6 Q 3.35 6.55 3.85 0.7 Q 15.3 1 37.4 1.55 Q 51.2 2.05 61.45 2.05 Q 64.05 2.05 66.5 2.05 Q 77.35 1.9 79.35 1.4 Q 81.95 1 84.75 1 Q 87.6 1 123.65 3.15 L 124.6 7.3 Q 124.6 10.85 123.4 18 Q 122.15 25.2 122.15 28.6 Q 122.15 31.8 122.9 34.5 M 122.15 28.6 L 122.15 28.6 "/>
+    <foreignObject width="116" height="59" x="5" y="5">
+      <body style="color: #000000;font-family: HandFont;font-size: 24px;font-style: normal;text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+        <p style="margin: 0;">
+          <span style="color: #000000;font-family: HandFont;font-size: 24px;font-style: normal;font-weight: normal;text-align: center;text-decoration: none;">K8S API server</span>
+        </p>
+      </body>
+    </foreignObject>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 693.45, 76.35)">
+    <path stroke="#000000" stroke-opacity="1" stroke-width="1" fill="none" d="M 0.6 10.8 Q 0.75 10.8 3.35 10.55 Q 5.95 10.3 9.5 10 Q 13 9.7 15.9 9.45 Q 18.75 9.2 19.4 9.2 Q 21 9.25 25.45 9.6 Q 29.9 9.95 30.45 10 L 49.4 9.4 "/>
+    <path stroke="#000000" stroke-opacity="1" stroke-width="1" fill="none" d="M 39.15 0.8 Q 39.15 1.1 41.55 4.1 Q 44 7.1 48.75 9.4 Q 48.65 9.4 46.9 10.25 Q 45.15 11.1 42.8 12.55 Q 40.5 13.95 38.65 15.65 Q 36.85 17.4 36.65 19.2 "/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 685.45, 156.35)">
+    <path stroke="#000000" stroke-opacity="1" stroke-width="1" fill="none" d="M 122.9 93.25 Q 123.65 101 123.65 106.25 Q 123.65 108.3 122.65 137.65 Q 122.15 139.5 122.15 144.6 Q 122.15 150.05 122.9 157 Q 123.65 163.6 123.65 171.65 Q 123.65 185.55 120.8 186.7 Q 113.9 187.25 105.75 189.15 Q 100.05 190.25 89.1 189.9 Q 79.1 189.15 78.35 189.15 Q 71.45 189.15 51.7 187.25 Q 36.15 185.55 24.8 186.7 Q 17.4 187.65 3.1 185.55 Q 1.25 164.7 1.25 136.15 Q 2.85 92.9 2.85 74.65 Q 2.15 61.15 2.85 53.8 Q 3.1 51.9 3.35 50.6 L 3.35 47.6 Q 3.35 44.95 3.35 42.15 Q 3.35 17.7 3.85 1.9 Q 15.3 2.65 37.4 4.15 Q 51.2 5.5 61.45 5.5 Q 64.05 5.5 66.5 5.5 Q 77.35 5.1 79.35 3.8 Q 81.95 2.65 84.75 2.65 Q 87.6 2.65 123.65 8.5 L 124.6 19.8 Q 124.6 29.35 123.4 48.75 Q 122.15 68.1 122.15 77.3 Q 122.15 85.95 122.9 93.25 M 122.15 77.3 L 122.15 77.3 "/>
+    <foreignObject width="116" height="30" x="5" y="5">
+      <body style="color: #000000;font-family: HandFont;font-size: 24px;font-style: normal;text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+        <p style="margin: 0;">
+          <span style="color: #000000;font-family: HandFont;font-size: 24px;font-style: normal;font-weight: normal;text-align: center;text-decoration: none;">messenger</span>
+        </p>
+      </body>
+    </foreignObject>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 707.45, 207.4)">
+    <path stroke="#000000" stroke-opacity="1" stroke-width="1" fill="none" d="M 33.85 50.15 Q 31.05 50.05 26.3 49.8 Q 17.75 49.35 17.1 49.35 L 15.2 49.5 Q 15 49.35 14.75 49.15 Q 11.7 46.75 8.6 43.85 Q 2.9 38.5 0.5 36.4 L 0.5 15.8 Q 3.5 11.85 8.7 7.1 Q 10.95 5.2 14.8 1.8 L 15.4 1.25 Q 19.25 1.15 25.55 0.5 Q 26.7 0.5 30.5 0.7 Q 33.6 0.8 35.15 0.95 Q 36.45 2.9 38.5 4.7 Q 42.35 7.95 43 8.7 Q 44 9.7 46.6 13 Q 48.1 14.55 49.4 16.25 L 49.7 24.55 Q 49.7 29.75 49.7 30.4 Q 49.6 31.25 49.4 35.45 Q 46.55 37.85 42.45 41.85 Q 34.5 49.5 33.85 50.15 M 42.45 41.85 L 42.45 41.85 "/>
+    <foreignObject width="40" height="30" x="5" y="5">
+      <body style="color: #000000;font-family: HandFont;font-size: 24px;font-style: normal;text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+        <p style="margin: 0;">
+          <span style="color: #000000;font-family: HandFont;font-size: 24px;font-style: normal;font-weight: normal;text-align: center;text-decoration: none;">s</span>
+        </p>
+      </body>
+    </foreignObject>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 712.45, 275.4)">
+    <path stroke="#000000" stroke-opacity="1" stroke-width="1" fill="none" d="M 33.85 50.15 Q 31.05 50.05 26.3 49.8 Q 17.75 49.35 17.1 49.35 L 15.2 49.5 Q 15 49.35 14.75 49.15 Q 11.7 46.75 8.6 43.85 Q 2.9 38.5 0.5 36.4 L 0.5 15.8 Q 3.5 11.85 8.7 7.1 Q 10.95 5.2 14.8 1.8 L 15.4 1.25 Q 19.25 1.15 25.55 0.5 Q 26.7 0.5 30.5 0.7 Q 33.6 0.8 35.15 0.95 Q 36.45 2.9 38.5 4.7 Q 42.35 7.95 43 8.7 Q 44 9.7 46.6 13 Q 48.1 14.55 49.4 16.25 L 49.7 24.55 Q 49.7 29.75 49.7 30.4 Q 49.6 31.25 49.4 35.45 Q 46.55 37.85 42.45 41.85 Q 34.5 49.5 33.85 50.15 M 42.45 41.85 L 42.45 41.85 "/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 475.55, 174.85)">
+    <path stroke="#000000" stroke-opacity="1" stroke-width="1" fill="none" d="M 122.9 34.5 Q 123.65 37.35 123.65 39.3 Q 123.65 40.05 122.65 50.9 Q 122.15 51.6 122.15 53.45 Q 122.15 55.5 122.9 58.05 Q 123.65 60.5 123.65 63.5 Q 123.65 68.6 120.8 69.05 Q 113.9 69.25 105.75 69.95 Q 100.05 70.35 89.1 70.2 Q 79.1 69.95 78.35 69.95 Q 71.45 69.95 51.7 69.25 Q 36.15 68.6 24.8 69.05 Q 17.4 69.4 3.1 68.6 Q 1.25 60.9 1.25 50.35 Q 2.85 34.35 2.85 27.6 Q 2.15 22.6 2.85 19.9 Q 3.1 19.2 3.35 18.7 L 3.35 17.6 L 3.35 15.6 Q 3.35 6.55 3.85 0.7 Q 15.3 1 37.4 1.55 Q 51.2 2.05 61.45 2.05 Q 64.05 2.05 66.5 2.05 Q 77.35 1.9 79.35 1.4 Q 81.95 1 84.75 1 Q 87.6 1 123.65 3.15 L 124.6 7.3 Q 124.6 10.85 123.4 18 Q 122.15 25.2 122.15 28.6 Q 122.15 31.8 122.9 34.5 M 122.15 28.6 L 122.15 28.6 "/>
+    <foreignObject width="116" height="59" x="5" y="5">
+      <body style="color: #000000;font-family: HandFont;font-size: 24px;font-style: normal;text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+        <p style="margin: 0;">
+          <span style="color: #000000;font-family: HandFont;font-size: 24px;font-style: normal;font-weight: normal;text-align: center;text-decoration: none;">istio</span>
+        </p>
+        <p style="margin: 0;">
+          <span style="color: #000000;font-family: HandFont;font-size: 24px;font-style: normal;font-weight: normal;text-align: center;text-decoration: none;">gateway</span>
+        </p>
+      </body>
+    </foreignObject>
+  </g>
+  <g transform="matrix(0.997310689072776, -0.0732897636862395, 0.0732897636862395, 0.997310689072776, 238.9, 213.75)">
+    <path stroke="#000000" stroke-opacity="1" stroke-width="1" fill="none" d="M 2.95 9.8 Q 3 9.8 6.45 9.7 Q 9.9 9.65 15.85 9.55 Q 21.75 9.45 29.2 9.3 Q 36.65 9.2 44.75 9.05 Q 52.8 8.9 60.55 8.75 Q 68.35 8.65 74.85 8.55 Q 81.4 8.45 85.8 8.35 Q 90.15 8.3 91.5 8.3 Q 94.3 8.3 102.4 8.4 Q 110.5 8.55 119.95 8.65 Q 129.4 8.8 136.25 8.95 Q 143.1 9.05 143.45 9.05 L 232.75 8.5 "/>
+    <path stroke="#000000" stroke-opacity="1" stroke-width="1" fill="none" d="M 184.45 0.75 Q 184.45 1 195.85 3.7 Q 207.25 6.45 229.8 8.5 Q 229.35 8.5 221.1 9.3 Q 212.8 10.05 201.8 11.35 Q 190.8 12.6 182.25 14.15 Q 173.7 15.75 172.7 17.35 "/>
+  </g>
+  <g transform="matrix(0.9618098235582908, 0.27371858414577827, -0.27371858414577827, 0.9618098235582908, 610.95, 197)">
+    <path stroke="#000000" stroke-opacity="1" stroke-width="1" fill="none" d="M 1.25 9.8 Q 1.5 9.75 6.65 9.55 Q 11.8 9.35 18.75 9.05 Q 25.7 8.75 31.4 8.55 Q 37.05 8.3 38.35 8.3 Q 39.5 8.3 42.9 8.4 Q 46.3 8.55 50.25 8.65 Q 54.25 8.8 57.1 8.95 Q 60 9.05 60.1 9.05 L 97.55 8.5 "/>
+    <path stroke="#000000" stroke-opacity="1" stroke-width="1" fill="none" d="M 77.3 0.75 Q 77.3 1 82.1 3.7 Q 86.9 6.45 96.3 8.5 Q 96.15 8.5 92.65 9.3 Q 89.2 10.05 84.6 11.35 Q 80 12.6 76.4 14.15 Q 72.8 15.75 72.4 17.35 "/>
+  </g>
+</svg>

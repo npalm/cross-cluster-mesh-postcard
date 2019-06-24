@@ -9,7 +9,7 @@ The setup below shows how you can setup a multi K8S cluster setup with cross clu
 
 For the setup we create 2 EKS clusters on Amazon (2). Next deploy Istio (4) using demo certificates (3). Next we delegate traffic (5) for CoreDNS used by EKS. 
 
-![cluster](./docs/clusters.png)
+![cluster](./docs/clusters.svg)
 
 Once the basic setup is ready we deploy to cluster 1 the greeter application (6-1) that sends a postcard based on a message received from the messenger (6-2) on cluster 2. For DNS resolution we create a service entry in cluster 1 for the messenger running in cluster 2 (7/8). 
 img.
