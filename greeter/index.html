@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+	<title>Hello World</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+	<style>
+body {
+  margin: 0;
+  font-size: 21px;
+  box-sizing: border-box;
+}
+
+.absolute {
+  position: absolute;
+}
+
+input,
+textarea {
+  background: transparent;
+  border: none;
+}
+
+input {
+  margin-left: 10px;
+  width: 240px;
+  font-size: 0.8em;
+font-family: "Source Code Pro", Menlo, Monaco, fixed-width;  letter-spacing: 2px;
+  padding: 5px;
+}
+
+.postcard {
+  position: relative;
+  width: 740px;
+  height: 498px;
+  margin: 0 auto;
+  font-family: "MedievalSharp";
+  border: 2px solid #ccc;
+  box-shadow: 7px 7px 20px #555;
+}
+
+.receiver {
+  right: 40px;
+  top: 185px;
+}
+
+.sender {
+  right: 40px;
+  top: 235px;
+}
+
+.reply {
+  right: 40px;
+  top: 290px;
+}
+
+.message {
+  left: 25px;
+  top: 100px;
+}
+
+.message textarea {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 0.7em;
+  background: transparent;
+  letter-spacing: 3px;
+  line-height: 1.5em;
+}
+
+
+textarea:focus,
+input:focus
+
+	</style>
+</head>
+<body>
+<form class="postcard" action="">
+  <div class="receiver absolute">
+    <label for="r-name" >To: </label>
+    <input type="text" name="receiver-name" placeholder="Niek">
+  </div>
+  <div class="sender absolute">
+    <label for="s-name" >From: </label>
+    <input type="text" name="sender-name" placeholder="__FROM__">
+  </div>
+  <div class="reply absolute">
+    <label for="t-reply" >Via: </label>
+    <input type="text" name="reply-text" placeholder="__VIA__">
+  </div>
+  <div class="message absolute">
+    <p name="message">__MESSAGE__</p>
+  </div>
+</form></body>
+</html>

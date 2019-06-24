@@ -1,34 +1,41 @@
 const express = require('express')
 const request = require('request')
+const fs = require('fs')
+const path = require('path')
 
 const app = express()
 const HOST = '0.0.0.0'
 const PORT = process.env.PORT || 3000
-const LOCATION = process.env.LOCATION || 'unknown'
+const LOCATION = process.env.LOCATION || 'local'
 const TIMEOUT = process.env.TIMEOUT || 3000
+const page = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8')
+console.log(page)
 
-const WORLD_SERVICE_ENDPOINT = process.env.WORLD_SERVICE_ENDPOINT || 'http://localhost:3001'
+const SECOND_CLUSTER = process.env.SECOND_CLUSTER || 'http://localhost:3001'
 
-app.get('/', function (req, res) {
+app.get('/greeter', function (req, res) {
   request(
     {
       method: 'GET',
-      url: WORLD_SERVICE_ENDPOINT,
+      url: SECOND_CLUSTER,
       timeout: TIMEOUT
     },
 
     function (error, response, body) {
       if (!error && response.statusCode == 200) {
-        res.send('Hello ' + body + 'send via ' + LOCATION)
+        const html = page.replace('__VIA__', SECOND_CLUSTER).replace('__MESSAGE__', 'Hi there, <br<br> We have a message for you:<br><br>' + body).replace('__FROM__', LOCATION)
+        res.send(html)
       } else {
-        console.log(body)
+        const html = page.replace('__VIA__', '').replace('__MESSAGE__', 'Hi there, <br><br>Oops we received nothing!').replace('__FROM__', LOCATION)
+        res.send(html)
         console.log(error)
-        res.send('Oops, nothing received. Send via ' + LOCATION)
       }
     })
+}).get('/', function (req, res) {
+  res.send('ready')
 })
 
 app.listen(PORT, HOST)
 
 console.log(`App listening on http://${HOST}:${PORT}!`)
-console.log(`World service endpoint on ${WORLD_SERVICE_ENDPOINT}`)
+console.log(`World service endpoint on ${SECOND_CLUSTER}`)
