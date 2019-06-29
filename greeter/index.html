@@ -1,71 +1,90 @@
 <!DOCTYPE html>
 <head>
 	<title>Hello World</title>
-  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
 	<style>
+@import url(https://fonts.googleapis.com/css?family=La+Belle+Aurore);
+@import url(https://fonts.googleapis.com/css?family=Special+Elite);
 body {
-  margin: 0;
-  font-size: 21px;
-  box-sizing: border-box;
+	font: 21px sans-serif;
+	padding: 2em;
+	margin: 0;
+	background: #222;
 }
 
-.absolute {
-  position: absolute;
+h1,
+label {
+	font: 0.8em 'Special Elite', cursive;
 }
 
 input,
 textarea {
-  background: transparent;
-  border: none;
+	font: 0.8em 'Special Elite', cursive;
+	/*fs lh ff*/
+	width: 240px;
+	padding: 0 10px;
+	margin: 0;
+	background: none;
+	border: none;
+	/*height:2.5em;*/
+	cursor: pointer;
 }
 
-input {
-  margin-left: 10px;
-  width: 240px;
-  font-size: 0.8em;
-font-family: "Source Code Pro", Menlo, Monaco, fixed-width;  letter-spacing: 2px;
-  padding: 5px;
+textarea {
+	display: block;
+	padding: 10px;
+	margin: 10px 0 0 -10px;
+	width: 340px;
+	height: 255px;
+	resize: none;
+	overflow: auto;
 }
 
-.postcard {
-  position: relative;
-  width: 740px;
-  height: 498px;
-  margin: 0 auto;
-  font-family: "MedievalSharp";
-  border: 2px solid #ccc;
-  box-shadow: 7px 7px 20px #555;
+form {
+	background: #FFF url(https://mdn.mozillademos.org/files/4151/background.jpg);
+	position: relative;
+	width: 740px;
+	height: 498px;
+	margin: 0 auto;
 }
 
-.receiver {
-  right: 40px;
-  top: 185px;
+input:focus,
+textarea:focus {
+	background: rgba(0, 0, 0, .1);
+	border-radius: 5px;
+	outline: none;
 }
 
-.sender {
-  right: 40px;
-  top: 235px;
+h1 {
+	position: absolute;
+	left: 405px;
+	top: 185px;
+	font-size: 0.9em;
 }
 
-.reply {
-  right: 40px;
-  top: 290px;
+#from {
+	position: absolute;
+	left: 390px;
+	top: 235px;
 }
 
-.message {
-  left: 25px;
-  top: 100px;
+#reply {
+	position: absolute;
+	left: 385px;
+	top: 285px;
 }
 
-.message textarea {
-  margin-top: 10px;
-  padding: 10px;
-  font-size: 0.7em;
-  background: transparent;
-  letter-spacing: 3px;
-  line-height: 1.5em;
+#message {
+	position: absolute;
+	left: 20px;
+	top: 110px;
 }
 
+button:hover,
+button:focus {
+	outline: none;
+	background: #000;
+	color: #FFF;
+}
 
 textarea:focus,
 input:focus
@@ -73,21 +92,29 @@ input:focus
 	</style>
 </head>
 <body>
-<form class="postcard" action="">
-  <div class="receiver absolute">
-    <label for="r-name" >To: </label>
-    <input type="text" name="receiver-name" placeholder="Niek">
-  </div>
-  <div class="sender absolute">
-    <label for="s-name" >From: </label>
+
+
+<form>
+  
+  <h1>to: Niek</h1>
+
+  <div id="from">
+    <label for="name">from:</label>
     <input type="text" name="sender-name" placeholder="__FROM__">
   </div>
-  <div class="reply absolute">
-    <label for="t-reply" >Via: </label>
+
+  <div id="reply">
+    <label for="mail">via:</label>
     <input type="text" name="reply-text" placeholder="__VIA__">
   </div>
-  <div class="message absolute">
-    <p name="message">__MESSAGE__</p>
+
+  <div id="message">
+
+      <p name="message">__MESSAGE__</p>
+
   </div>
-</form></body>
+ 
+
+</form>
+</body>
 </html>
