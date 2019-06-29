@@ -39,7 +39,7 @@ spec:
             cpu: 500m
         env:
         - name: MESSAGE
-          value: "All good in the second cluster!"
+          value: "MESSAGE_TEXt"
 
 ---
 apiVersion: v1

@@ -1,4 +1,5 @@
 source 00-common.sh
 
 set -x
-kubectl apply -f demo/messenger
+export MESSAGE=All good in cluster 2.
+cat demo/messenger/messenger.yaml | sed "s/MESSAGE_TEXt/$MESSAGE/" | kubectl apply -f -
