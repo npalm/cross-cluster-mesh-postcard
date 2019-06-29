@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: greeter
-        image: npalm/hello-mesh-greeter:v6
+        image: npalm/hello-mesh-greeter:latest
         imagePullPolicy: Always
         ports:
           - name: http
@@ -41,7 +41,7 @@ spec:
         - name: SECOND_CLUSTER
           value: "http://messenger.default.global:3000"
         - name: LOCATION
-          value: "greeter@cluster-1"
+          value: "CLUSTER_NAME"
 
 ---
 apiVersion: v1
