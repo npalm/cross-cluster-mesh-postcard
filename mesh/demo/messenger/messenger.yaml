@@ -39,7 +39,7 @@ spec:
             cpu: 500m
         env:
         - name: MESSAGE
-          value: "MESSAGE_TEXt"
+          value: "MESSAGE_TEXT"
 
 ---
 apiVersion: v1
